@@ -15,3 +15,7 @@ const server = http.createServer((req, res) => {
 // }); //now it did quit the process and bring us bank on the new line in terminal.this will quit thw server.
 
 server.listen(3000);
+
+// Want to quit your running Node.js server?
+
+// You can always do that by pressing CTRL + C in the terminal/ command prompt window where you started your server (i.e. where you ran node app.js).
