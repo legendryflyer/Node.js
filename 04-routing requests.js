@@ -1,5 +1,5 @@
 const http = require("http");
-const { text } = require("stream/consumers");
+
 const server = http.createServer((req, res) => {
   const url = req.url;
   if (url === "/") {
