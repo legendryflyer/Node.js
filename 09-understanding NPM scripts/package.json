@@ -1,0 +1,20 @@
+{
+  "name": "09-understanding-npm-scripts",
+  "version": "1.0.0",
+  "description": "undersatnding NPM scripts ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legendryflyer/Node.js.git"
+  },
+  "author": "tavish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legendryflyer/Node.js/issues"
+  },
+  "homepage": "https://github.com/legendryflyer/Node.js#readme"
+}
