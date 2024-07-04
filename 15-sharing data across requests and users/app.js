@@ -9,7 +9,7 @@ const app = express();
 app.engine("handlebars", expressHbs());
 
 app.set("view engine", "handlebars");
-app.set("views", "handlebars");
+app.set("views", "views");
 
 const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
